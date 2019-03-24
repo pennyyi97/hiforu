@@ -1,0 +1,92 @@
+/* 전체 */
+* { margin:0; padding:0;}
+ul,li {list-style:none;}
+a {text-decoration:none; color:#000;}
+body {height: 700px;}
+
+/* 한마 왕십리 4211탭 박스 */
+.tab_box {
+   height: 60px;
+    background: rgb(23,87,155);
+    margin-top:-2px;
+}
+
+/* 한마 왕십리 4211탭 */
+.tab {
+   border-left:none;
+   overflow:hidden;
+   height: 59px;
+}
+/* 한마 왕십리 4211탭 리스트 */
+.tab li {
+   float:left;
+   width:33.333%;
+   height: 59px;
+   text-align:center;
+   box-sizing:border-box;
+   display:inline-block;
+   padding:22px;
+   font-size: 15px;
+   cursor:pointer;
+   color: #fff;
+}
+/* 한마 왕십리 4211탭 리스트 클릭했을 때 */
+.tab li.on {
+   background-color:rgb(22,68,117);
+   color:#fff;
+   height: 59px;
+}
+/* 한마 왕십리 4211탭 리스트 안에 내용 */
+.tab_con {
+   clear:both;
+}
+.ww {
+   display:none;
+   height:100px;
+   background:#fff;
+}
+.tt {
+   display:none;
+   height:100px;
+   background:#fff;
+   line-height:100px;
+   text-align:center;
+}
+
+/* 4211상행하행전체 */
+.tab2 {
+   border-left:none;
+   overflow:hidden;
+}
+
+/* 4211상행하행 리스트 */
+.tab2 li {
+   float:left;
+   width:50%;
+   text-align:center;
+   box-sizing:border-box;
+   display:inline-block;
+   cursor:pointer;
+   color: #000;
+   margin-top: -20px;
+   font-size: 14px;
+}
+
+/* 4211상행하행 클릭했을 때 색깔변환 */
+.tab2 li.on {
+   color: rgb(22,87,155);
+}
+
+/* 4211상행하행 안에 내용 */
+
+.tab2_con {
+   clear:both;
+   display:none;
+}
+/* .tab2_con div {
+   display:none;
+   height:100px;
+   background:#fff;
+   line-height:100px;
+   text-align:center;
+} */

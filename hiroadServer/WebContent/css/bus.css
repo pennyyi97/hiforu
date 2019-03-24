@@ -1,0 +1,72 @@
+.bus {
+	margin-top: 20px;
+	width: 150px;
+	margin-left: -40px;
+}
+
+.wrap3 {
+	margin-top: -65px;
+	height: 900px;
+	padding-top: 10px;
+}
+
+/*정류장(전체)*/
+.name3 {
+	border-top: 1px solid #d8d8d8;
+	padding: 10px;
+	/* margin-left: 15px; */
+
+	list-style: none;
+}
+
+.hh {
+	font-size: 13px;
+	float: right;
+	margin-top: -20px;
+	margin-right: 8px;
+}
+
+.d {
+	margin-top: -45px;
+}
+
+.name3>li {
+	letter-spacing: -1.45px;
+	line-height: 1.85;
+}
+
+.name3>li>div {
+	margin-top: 10px;
+	height: 10px;
+}
+
+.name3>li>div>hr {
+	border: 0;
+	height: .5px;
+	color: #d8d8d8;
+	border-color: #d8d8d8;
+	background-color: #d8d8d8;
+}
+
+.name3>li>h1 {
+	font-size: 14px;
+	color: red;
+}
+
+.loading {
+	height: 15px;
+	float: right;
+}
+
+/* 즐겨찾기 */
+.far1 {
+	color: rgb(23, 87, 155);
+	position: relative;
+	float: right;
+	right: 20px;
+	top: -12px;
+}
+
+.far1:hover {
+	background: url(../images/st_hover2.png) 78% no-repeat;
+}

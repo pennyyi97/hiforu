@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.top {
+	height: 67.33px;
+	background: rgb(23, 87, 155);
+}
+
+.imgbox {
+	text-align: center;
+}
+
+.all {
+	margin-top: 60px;
+}
+
+.wrap {
+	/* width: 300px; */
+    height: 380px;
+    margin-top: 40px;
+    margin-left: 20px;
+	
+}
+
+.num {
+	margin-left: 100px;
+	margin-top: -15px;
+}
+
+.user {
+	width: 100px;
+}
+
+.content_line {
+	padding-top: 20px;
+}
+
+.wrap .content_line .header {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 5px;
+}
+
+.wrap .content_line .input {
+	position: absolute;
+	width: 200px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 3px;
+	height: 30px;
+	padding-top: 4px;
+	padding-left: 4px;
+/* 	margin-top: -3px; */
+}
+
+.btn {
+	text-align: center;
+}
+
+.submit {
+	position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 43px;
+    background: rgb(23, 87, 155);
+    border: 1px solid rgba(0, 0, 0, .1);
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 10;
+    right: 1px;
+}
+
+select {
+	background: #fff;
+	margin-top: 8px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 3px;
+	/* width:100px;*/
+	width: 54%;
+	height: 35px;
+	margin-left: -6px;
+}
+
+.bank {
+	 margin-top: 3px; 
+}
+.gg {
+	margin-top: 3px; 
+}
+
+
+.h6 {
+	font-size: .8em;
+	letter-spacing: -.1em;
+	margin-top: 30px;
+	margin-left: 30px;
+}

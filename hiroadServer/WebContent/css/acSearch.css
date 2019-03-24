@@ -1,0 +1,117 @@
+/* 전체 */
+* { margin:0; padding:0;}
+ul,li {list-style:none;}
+a {text-decoration:none; color:#000;}
+body {height: 700px;}
+
+.header {
+	position: relative;
+	margin-bottom: 2px;
+	text-align: center;
+	background-color: #fff;
+	height: 2.2em;
+	margin-top: -2px;
+}
+
+.srch_put {
+	width: 90%;
+	margin-top: 10px;
+	border: solid 1px #dbdbdb;
+	border-radius: 10px;
+	color: #262626;
+	outline: 0;
+	padding: 5px 20px 5px 6px;
+	z-index: 2;
+	font-size: .95em;
+	letter-spacing: .5px;
+}
+
+.fa {
+	position: absolute;
+	top: 50%;
+	margin-left: -22px;
+}
+
+.sList {
+	padding: 10px;
+	height: 4em;
+	border-bottom: .05px solid #d0d0d0;
+	border-top: .05px solid #d0d0d0;
+}
+
+.user4 {
+	margin-top: 10px;
+	width: 50px;
+}
+
+/* 이전 css
+.mm {
+	font-weight: bold;
+	margin-top: -38px;
+	 margin-left: 4em; 
+	letter-spacing: -0.05em;
+} */
+.mm {
+	    top: -18px;
+    position: relative;
+   
+    font-weight: bold;
+    margin-left: 13px;
+    letter-spacing: -0.05em;
+}
+/* 임시체크박스 css */
+.aa {
+	      height: 15.7px;
+    margin-top: 29px;
+    float: right;
+    width: 50px;
+}
+
+.snum_list {
+	overflow: scroll;
+	margin-top: 18px;
+	width: 100%;
+	height: 500px;
+}
+
+.footer {
+	background-color: white;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.cart {
+	border: 1px solid #17579b;
+	height: 45px;
+	padding: 10px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+	width: 85%;
+	margin-left: 4.6%;
+}
+
+.ss {
+	letter-spacing: -1.5px;
+	float: left;
+}
+
+.submit {
+	padding: 10px;
+	width: 20%;
+	outline: none !important;
+	border: 0;
+	color: white;
+	text-align: center;
+	background-color: rgb(23, 87, 155);
+	text-decoration: none;
+}
+.text{    border: 0;
+    outline: 0;
+    margin-top: 10px;
+    width: 100%;
+    color:#17579b;
+	}

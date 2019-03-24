@@ -1,0 +1,49 @@
+.timetable {
+	letter-spacing: -1px;
+	font-size: 14px;
+	color: #666;
+	word-break: keep-all;
+}
+.tab {
+	border-left:none;
+	overflow:hidden;
+}
+.tab_con {
+	clear:both;
+}
+.tab_con div {
+	display:none;
+	background:#fff;
+	text-align:center;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.timetable td {
+    padding: 5px 2px;
+    font-size: 11px;
+    border: 1px solid #e1e4eb;
+    border-right: 0;
+    border-top: 0;
+    text-align: center;
+}
+.timetable th {
+	padding: 5px 2px;
+	font-size: 11px;
+	color: #00467f;
+	font-weight: 600;
+	border: 1px solid #e1e4eb;
+	border-right: 0;
+	border-top: 0;
+	background: #f8fafc;
+}
+button {
+	display: block;
+	float: left;
+	margin: 10px 5px;
+	padding: 5px;
+	background: white;
+	border: 1px solid rgb(23,87,155);
+}

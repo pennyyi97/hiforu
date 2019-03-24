@@ -1,0 +1,45 @@
+* { margin:0; padding:0;}
+ul,li {list-style:none;}
+a {text-decoration:none; color:#000;}
+
+.loginback {
+   position: absolute;
+   width: 100%;
+}
+
+.loginlogo {
+   position: relative;
+}
+
+.logo {
+   display: block;
+   margin: 0 auto;
+   margin-top: 200px;
+}
+
+.yeslogin {
+   color: #fff;
+   background: rgb(23,87,155);
+   width: 170px;
+   margin: 0 auto;
+   border: 2px solid #fff;
+   border-radius: 25px;
+   padding: 10px 30px;
+}
+
+.nologin {
+   position: relative;
+   text-align: center;
+}
+
+.nologintext {
+   margin-top: 10px;
+   color: rgb(23,87,155);
+   font-size: 13px;
+}
+
+.loginbox {
+   position: relative;
+   text-align: center;
+   margin-top: 130px;
+}

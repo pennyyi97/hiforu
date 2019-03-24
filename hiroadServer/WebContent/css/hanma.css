@@ -1,0 +1,76 @@
+
+/*정류장(전체)*/
+.header {
+	height: 10px;
+}
+
+.name1 {
+	/* margin-top: 20px; */
+	border-top: 1px solid #d8d8d8;
+	padding: 10px;
+	list-style: none;
+}
+
+.hh {
+	font-size: 13px;
+	float: right;
+	margin-top: -20px;
+	margin-right: 8px;
+}
+
+.d {
+	margin-top: -45px;
+}
+
+.name1>li {
+	letter-spacing: -1.45px;
+	line-height: 1.85;
+}
+
+.name1>li>div {
+	margin-top: 10px;
+	height: 10px;
+}
+
+.name1>li>div>hr {
+	border: 0;
+	height: 1px;
+	color: #d8d8d8;
+	border-color: #d8d8d8;
+	background-color: #d8d8d8;
+}
+
+.name1>li>h1 {
+	font-size: 14px;
+	color: red;
+}
+
+.lod {
+	padding: 2px;
+	font-size: 13px;
+	float: right;
+	margin: 5px;
+	outline: 0;
+	border: 0;
+	background-color: #fff;
+	letter-spacing: -.5px;
+}
+
+.loading {
+	margin-left: 3px;
+	height: 15px;
+	float: right;
+}
+
+.lod2 {
+	height: 50px;
+	width: 55px;
+	border-radius: 50%;
+	right: 10px;
+	outline: none !important;
+	border: 0;
+	background-color: rgb(23, 87, 155);
+	text-decoration: none;
+	bottom: 10px;
+	position: fixed;
+}

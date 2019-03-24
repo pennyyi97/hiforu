@@ -1,0 +1,77 @@
+/*제일 상단 head*/
+.head {
+	position: relative;
+	margin: 20px;
+	padding: 5px;
+}
+.w {
+	padding-left: 85px;
+}
+.w dt {
+	position: absolute;
+	left: 0;
+	padding-left: 18px;
+	font-weight: 600;
+	color: #000;
+}
+.w dd {
+	padding-bottom: 15px;
+}
+.con {
+	margin: 20px 10px 0px 10px;
+}
+
+.payco, .naverpay {
+	border: 1px solid rgb(23,84,155);
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+.checkbox-container {
+	float:right;
+}
+#is-subscription {
+	width: 17px;
+	height: 17px;
+	margin-top: -1px;
+}
+
+.card {
+	border: 1px solid rgb(23,84,155);
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+.content_line1 {
+	margin-top:20px;
+	margin-bottom:10px;
+}
+#cardinfo1 {
+	margin-left: 15px;
+}
+
+.input {
+	border: 1px solid #d7d7d7;
+	width: 70%;
+	height: 20px;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+.submit1 {
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 43px;
+	background: rgb(23, 87, 155);
+	border: 1px solid rgba(0, 0, 0, .1);
+	font-size: 15px;
+	font-weight: 700;
+	color: #fff;
+	z-index: 10;
+}

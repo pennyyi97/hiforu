@@ -1,0 +1,9 @@
+select *
+ from taxi
+where (UNIX_TIMESTAMP(now()) - UNIX_TIMESTAMP(date)) / 60 / 60 > 1;
+
+
+
+select snum from taxi where taxi_num=15
+union all
+select apply.snum from taxi,apply where taxi.taxi_num=apply.taxi_num and taxi.taxi_num=15

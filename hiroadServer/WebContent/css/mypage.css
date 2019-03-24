@@ -1,0 +1,252 @@
+/* 전체 */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+body {
+	background-color: rgb(224, 224, 224);
+}
+
+/*정보입력 박스 안 버튼*/
+.infobutton {
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	background: transparent;
+	color: #17579b;
+	border: 1px solid;
+	padding: 5px 30px;
+	border-radius: 7px;
+	font-size: 14px;
+	left: 47%;
+	margin-top: 20px;
+}
+
+/* .content_line {
+	padding-top: 20px;
+}
+ */
+.content_line .header {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 5px;
+}
+
+.num {
+	padding-top: 20px;
+	margin-right: 60px;
+	float: right;
+	margin-top: -105px;
+	font-weight: bold;
+}
+
+.num2 {
+	padding-top: 20px;
+	margin-right: 30px;
+	float: right;
+	margin-top: -105px;
+	font-weight: bold;
+}
+
+.nct {
+	word-spacing: 1px;
+	font-size: 0.9em;
+	margin-left: -25px;
+	letter-spacing: -1.8px;
+	margin-top: 30px;
+}
+/*헤더제외 화면*/
+.set_all {
+	width: 100%;
+	background: rgb(224, 224, 224);
+}
+/*화면의 설정 텍스트*/
+.set_text {
+	padding: 15px;
+	color: #666666;
+	font-weight: bold;
+}
+
+.set_text2 {
+	padding: 20px;
+}
+/*정보입력 큰박스*/
+.set_info {
+	padding: 15px;
+	background: #fff;
+	border-top: 1px solid rgb(158, 158, 158);
+	border-bottom: 1px solid rgb(158, 158, 158);
+}
+/*정보입력 박스 안 유저이미지*/
+.user {
+	width: 90px;
+	height: 90px;
+	margin-left: 10px;
+}
+/*정보입력 박스 정보들*/
+.set_info_detail {
+	display: inline-block;
+	line-height: 1.8;
+	position: absolute;
+	margin-left: 40px;
+}
+
+/*위젯onoff박스*/
+.set_switchbox1 {
+	padding: 12px;
+	background: #fff;
+	border-top: 1px solid rgb(158, 158, 158);
+	border-bottom: 1px solid rgb(158, 158, 158);
+}
+/*위젯onoff박스 안에 텍스트*/
+.set_alram1 {
+	padding: 5px;
+}
+/*위젯onoff박스 안에 스위치버튼*/
+.switch1 {
+	position: absolute;
+	float: right;
+	margin-top: -28px;
+}
+/*위젯onoff박스*/
+.set_switchbox2 {
+	padding: 12px;
+	background: #fff;
+	border-bottom: 1px solid rgb(158, 158, 158);
+}
+/*위젯onoff박스 안에 텍스트*/
+.set_alram2 {
+	padding: 5px;
+}
+/*위젯onoff박스 안에 스위치버튼*/
+.switch2 {
+	position: absolute;
+	float: right;
+	margin-top: -28px;
+}
+
+/*스위치버튼디자인*/
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+	vertical-align: middle;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+	display: none;
+}
+
+/* The slider */
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked+.slider {
+	background-color: rgb(23, 87, 155);
+}
+
+input:focus+.slider {
+	box-shadow: 0 0 1px rgb(23, 87, 155);
+}
+
+input:checked+.slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+/* 식권 구매 내역 박스 부분 */
+.cart {
+	padding: 12px;
+	background: #fff;
+	border-top: 1px solid rgb(158, 158, 158);
+	border-bottom: 1px solid rgb(158, 158, 158);
+}
+
+.cart2 {
+	padding: 12px;
+	background: #fff;
+	border-bottom: 1px solid rgb(158, 158, 158);
+}
+
+.cart_txt {
+	padding: 5px;
+}
+
+.member {
+	padding: 12px;
+	background: #fff;
+	border-top: 1px solid rgb(158, 158, 158);
+	border-bottom: 1px solid rgb(158, 158, 158);
+}
+
+.member_txt {
+	padding: 5px;
+}
+
+/* 즐겨찾기 박스 부분 */
+.bookmark {
+	padding: 12px;
+	background: #fff;
+	border-top: 1px solid rgb(158, 158, 158);
+	border-bottom: 1px solid rgb(158, 158, 158);
+}
+
+.bookmark_txt {
+	padding: 5px;
+}
+
+.logout {
+	padding: 12px;
+	background: #fff;
+	border-top: 1px solid rgb(158, 158, 158);
+	border-bottom: 1px solid rgb(158, 158, 158);
+}
+
+.logout_txt {
+	padding: 5px;
+}

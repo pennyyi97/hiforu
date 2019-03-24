@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceResult>
+   <comMsgHeader/>
+   <msgHeader>
+      <headerCd>0</headerCd>
+      <headerMsg>정상적으로 처리되었습니다.</headerMsg>
+   </msgHeader>
+   <msgBody>
+      <shuttleInfo>
+         <msg1>5분7초후</msg1>
+         <msg2>9분25초후</msg2>
+         <stNm>한양여대 정문</stNm>
+         <stNum>951013</stNum>
+         <busId1>101</busId1>
+         <busId2>102</busId2>               
+         <intervalId>216100002</intervalId>
+         <busSpd1>20</busSpd1>
+         <busSpd2>25</busSpd2>
+         
+      </shuttleInfo>
+       <shuttleInfo>
+         <msg1>8분5초후</msg1>
+         <msg2>9분25초후</msg2>
+         <stNm>한양대역 3번 출구</stNm>
+         <stNum>951013</stNum>
+         <busId1>101</busId1>
+         <busId2>102</busId2>               
+         <intervalId>0</intervalId>
+         <busSpd1>20</busSpd1>
+         <busSpd2>25</busSpd2>
+         
+      </shuttleInfo>
+       <shuttleInfo>
+         <msg1>11분7초후</msg1>
+         <msg2>9분25초후</msg2>
+         <stNm>마장역 3번 출구</stNm>
+         <stNum>951013</stNum>
+         <busId1>101</busId1>
+         <busId2>102</busId2>               
+         <intervalId>216100001</intervalId>
+         <busSpd1>20</busSpd1>
+         <busSpd2>25</busSpd2>
+         
+      </shuttleInfo>
+       <shuttleInfo>
+         <msg1>곧 도착</msg1>
+         <msg2>9분25초후</msg2>
+         <stNm>한양여대 정문</stNm>
+         <stNum>951013</stNum>
+         <busId1>101</busId1>
+         <busId2>102</busId2>               
+         <intervalId>216100002</intervalId>
+         <busSpd1>20</busSpd1>
+         <busSpd2>25</busSpd2>
+         
+      </shuttleInfo>
+   </msgBody>
+</ServiceResult>

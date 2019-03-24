@@ -1,0 +1,49 @@
+/* 전체 */
+* { margin:0; padding:0;}
+ul,li {list-style:none;}
+a {text-decoration:none; color:#000;}
+body {height: 700px;}
+
+
+/* 탭 박스 */
+.tab_box {
+	height: 60px;
+    background: rgb(23,87,155);
+    margin-top:-2px;
+}
+
+/* 탭 */
+.tab {
+	border-left:none;
+	overflow:hidden;
+}
+/* 탭 리스트 */
+.tab li {
+	float:left;
+	width: 49.55%;
+	text-align:center;
+	box-sizing:border-box;
+	display:inline-block;
+	padding:20px;
+	cursor:pointer;
+	color: #fff;
+}
+
+/* 탭 리스트 클릭했을 때 */
+.tab li.on {
+	background-color:rgb(22,68,117);
+	color:#fff;
+}
+/* 탭 리스트 안에 내용 */
+.tab_con {
+	clear:both;
+}
+.ww {
+	display:none;
+	height:100px;
+	background:#fff;
+}
+
+
+
+

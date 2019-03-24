@@ -1,0 +1,110 @@
+/* 전체 */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+/* 헤더 높이와 배경색*/
+#header {
+	height: 60px;
+	background: rgb(23, 87, 155);
+}
+
+/* 하이로 로고*/
+.logo {
+	width: 65px;
+	height: 40px;
+	margin: 13px;
+}
+/* 흰줄세개있는버튼(메뉴바) */
+.btnAll {
+	display: block;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	right: 0;
+	top: 0;
+}
+/* 메뉴바 흰줄 디자인 */
+.btnAll span {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	position: absolute;
+	right: 15px;
+	transition: all 0.5s ease-in-out;
+}
+/* 메뉴바 흰줄 위치(1,2,3) */
+.btnAll span:nth-child(1) {
+	top: 16px;
+}
+
+.btnAll span:nth-child(2) {
+	top: 28px;
+}
+
+.btnAll span:nth-child(3) {
+	top: 40px;
+}
+
+/* 메뉴바 흰줄 바뀌는거(1,2,3) */
+#header.close .btnAll span:nth-child(1) {
+	transform: rotate(135deg);
+	top: 28px;
+}
+
+#header.close .btnAll span:nth-child(2) {
+	opacity: 0;
+}
+
+#header.close .btnAll span:nth-child(3) {
+	transform: rotate(-135deg);
+	top: 28px;
+}
+
+/* 메뉴바 흰줄이 두개로 바뀜 엑스자 */
+#header.close+#gnb {
+	right: 0;
+	position: absolute;
+}
+
+/* 메뉴바 안에 */
+#gnb {
+	z-index: 1200;
+	position: fixed;
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	margin-top: -2px;
+	top: 60px;
+	right: -100%;
+	transition: all 0.5s ease-in-out;
+}
+/* 메뉴바 안에 리스트 안에 링크 디자인 */
+#gnb>li>a {
+	display: block;
+	font-size: 1.13rem;
+	padding: 15px 20px;
+	font-weight: 700;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+/* 메뉴바 안에 리스트 색상 변경 */
+#gnb>li:hover>a {
+	color: rgb(23, 87, 155);
+}
+
+.popup a {
+	color: #fff;
+	float: right;
+}

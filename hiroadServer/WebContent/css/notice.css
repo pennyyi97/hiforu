@@ -1,0 +1,52 @@
+#gnb2{
+	    height: 500px;
+}
+.pagination {
+	margin: 50px 0 !important;}
+
+/* 메뉴바 안에 리스트 안에 링크 디자인 */
+#gnb2>li>a {
+	/* letter-spacing: -1px; */
+	line-height: 1.2rem;
+	display: block;
+	font-size: 1rem;
+	padding: 15px 5px;
+	font-weight: 700;
+	border-top: 0.5px solid #d9d9d9;
+	border-bottom: 0.5px solid #d9d9d9;
+	letter-spacing: -.13em;
+	word-spacing: 1.5px;
+}
+/*화살표-일단 모바일 기준 나중에 @media로 반응형 */
+#gnb2>li>a>img {
+	position: relative;
+	float: right;
+	width: 20px;
+	margin-top: -2rem;
+	/* margin-top:-25px; */
+	right: 5px;
+}
+
+/*날짜 색깔*/
+#gnb2>li>a>p {
+	color: #a0a0a0;
+	font-weight: 500;
+	margin-top: 5px;
+}
+/* 공지사항 클릭 후 배경*/
+#gnb2>li .depth02 {
+	background: #f8f8f8;
+}
+/*공지사항 클릭 후 내용 */
+#gnb2>li .depth02>h1 {
+	line-height: 1.3;
+	font-size: 1rem;
+	display: block;
+	padding: 15px 15px 15px 15px;
+	letter-spacing: -.13em;
+	word-spacing: 1.5px;
+}
+
+/* #gnb2 > li:hover > a {
+			color:rgb(23,87,155);
+		} */
